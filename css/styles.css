@@ -1,6 +1,138 @@
-.nav_container_fluid {
-    margin: 0;
-    padding:0 !important;
+html {
+    overflow-x: hidden;
+}
+
+
+.navbar-brand {
+    font-family: 'Pangolin', cursive;
+    font-size: 2.1rem !important;
+    color:white !important;
+  
+}
+
+.brand_name {
+    font-family: 'Pangolin', cursive;
+    
+}
+
+.fa-tshirt {
+    color:white;
+}
+
+.top_icons {
+    color:white !important;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nav_cont {
+    background-color:black;
+}
+
+.top_icon_text {
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+}
+
+.get {
+    text-align: center;
+}
+
+img {
+width: 60%;
+margin: 0 auto;
+}
+
+
+.pictures_body {
+display:flex;
+flex-direction: column;
+
+
+    
+}
+
+.pictures_body > * {
+    width: 100%;
+}
+
+
+
+
+
+.hot {
+    background-image:url(https://i.pinimg.com/originals/58/a9/44/58a944b0faa4d14a4eae9dde7950a6ad.gif);
+    background-size:100%;
+    -webkit-background-clip: text;
+    color:transparent;
+   
+}
+
+
+
+
+/* thumbnails */
+
+
+.thumb_img {
+    width: 100%;
+}
+
+.thumbnail {
+
+    margin-left: 30px;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2)
+   
+}
+
+.thumbnail:hover{
+    transform: scale(1.075);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary {
+display:flex !important;
+justify-content: center !important;
+margin: 0 auto !important;
+width: 80%;
+
+}
+
+.footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:grey;
+}
+
+
+
+.footer_image {
+    width: 100%;
+}
+
+.footer_row div  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_row {
+    position: relative;
+}
+.footer a {
+    top:20px;
+    position: absolute;
+    color:#777777;
+    font-size: 2rem;
     
    
 }
+
+.footer a:nth-of-type(1) {
+    right:80px;
+ }
+.footer a:nth-of-type(2) {
+   left:80px;
+}
+
