@@ -60,6 +60,8 @@ flex-direction: column;
 
 
 
+
+
 .hot {
     background-image:url(https://i.pinimg.com/originals/58/a9/44/58a944b0faa4d14a4eae9dde7950a6ad.gif);
     background-size:100%;
@@ -99,17 +101,21 @@ width: 80%;
 
 }
 
+
+
+ /* footer */
+
 .footer {
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color:grey;
+   
 }
 
 
 
 .footer_image {
-    width: 100%;
+    min-width: 100%;
 }
 
 .footer_row div  {
@@ -136,3 +142,12 @@ width: 80%;
    left:50px;
 }
 
+
+@media screen and (min-width:550px) {
+
+
+    .footer_image {
+       
+    }
+
+}
