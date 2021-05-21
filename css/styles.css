@@ -14,6 +14,10 @@ body {
   
 }
 
+.nav_brand_name {
+    font-size: 3.2rem !important;
+}
+
 .brand_name {
     font-family: 'Pangolin', cursive;
     
@@ -21,6 +25,14 @@ body {
 
 .fa-tshirt {
     color:black;
+}
+
+.nav_ig_icon {
+    font-size: 3rem !important;
+}
+
+.phone_icon{
+    font-size: 3rem !important;
 }
 
 .top_icons {
@@ -35,7 +47,7 @@ body {
 }
 
 .top_icon_text {
-    font-size: 1.5rem;
+    font-size: 3rem !important;
     margin-left: 0.3rem;
 }
 
