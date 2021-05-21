@@ -10,7 +10,7 @@ body {
 .navbar-brand {
     font-family: 'Pangolin', cursive;
     font-size: 2.1rem !important;
-    color:white !important;
+    color:black !important;
   
 }
 
@@ -20,17 +20,18 @@ body {
 }
 
 .fa-tshirt {
-    color:white;
+    color:black;
 }
 
 .top_icons {
-    color:white !important;
+    color:black !important;
     font-size: 2rem;
     text-align: center;
 }
 
 .nav_cont {
-    background-color:black;
+    background-image:linear-gradient(#009fff, #ec2f4b)
+    
 }
 
 .top_icon_text {
@@ -42,10 +43,29 @@ body {
     text-align: center;
 }
 
+.dyed {
+    background-image:url(https://pa1.narvii.com/7282/10834b67de273b42fa25856510c51659d5419f6dr1-480-270_hq.gif);
+    background-size:100%;
+    -webkit-background-clip: text;
+    color:transparent;
+   
+}
+
+.t-shirts {
+    background-image:url(https://64.media.tumblr.com/269a91e1a9ed40a5f6df4c35cf2de260/tumblr_pfg94z5tOh1uzwgsuo1_400.gifv);
+    background-size:100%;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+
+
 img {
-width: 60%;
+width: 100%;
 margin: 0 auto;
 }
+
+
 
 
 .pictures_body {
@@ -86,7 +106,7 @@ flex-direction: column;
 
 .thumbnail {
 
-    margin-left: 30px;
+  
     box-shadow: 0 0 1em rgba(0,0,0,0.2)
    
 }
@@ -140,87 +160,104 @@ width: 80%;
 }
 
 .footer a:nth-of-type(1) {
-    right:50px;
+    right:30px;
  }
 .footer a:nth-of-type(2) {
-   left:50px;
+   left:30px;
 }
+
+
+
+
+
 
 
 @media screen and (min-width:550px) {
 
-.brand_name {
-    font-size: 3rem !important;
-}
+        .brand_name {
+            font-size: 3rem !important;
+        }
 
-.top_icons {
-    font-size: 3rem !important;
-}
+        .top_icons {
+            font-size: 3rem !important;
+        }
 
-.top_icon_text {
-    font-size: 3rem !important;
-}
+        .top_icon_text {
+            font-size: 3rem !important;
+        }
 
-.get {
-    font-size: 7rem !important;
-}
+        .get {
+            font-size: 7rem !important;
+        }
 
-.kayshert {
-    font-size: 7rem !important;
-}
-
-
-/* carousel */
-.carousel-inner {
-    height:70vh;
-}
+        .kayshert {
+            font-size: 7rem !important;
+        }
 
 
-
-    /* thumbnails */
-
-    .hot {
-        font-size: 5rem;
-    }
-
-  .in_twos {
-
-    display:flex;
-    margin: 0px;
-    
-  }
-
-  .in_twos > * {
-        width: 100%;
-  }
+        /* carousel */
+        .carousel-inner {
+            height:100vh;
+        
+        }
+            
+        img {
+            width: 100%;
+            margin: 0 auto;
+            }
 
 
-    .pictures_body .thumbnail {
-        max-width: 30% !important;
-        margin: 0px;
-        display:inline;
-        font-size: 0px;
-        padding:0px;
-       
-       
 
-       
-    }
+            /* thumbnails */
+
+            .hot {
+                font-size: 5rem;
+            }
+
+        .in_twos {
+
+            display:flex;
+            margin: 0px;
+            
+        }
+
+        .in_twos > * {
+                width: 100%;
+        }
 
 
-    .pictures_body .thumb_img {
-       max-width: 60%;
+            .pictures_body .thumbnail {
+                max-width: 30% !important;
+                margin: 0px;
+                display:inline;
+                font-size: 0px;
+                padding:0px;
+            
+            
+            
 
-    }
+            
+            }
 
-    .btn-primary {
-        max-width: 60%;
-        padding:1rem;
-    }
 
-    .last_one {
-        max-width: 60%;
-        margin: 0 auto;
-    }
+
+
+
+            .pictures_body .thumb_img {
+            max-width: 60%;
+
+            }
+
+            .btn-primary {
+                max-width: 60%;
+                padding:1rem;
+            }
+
+            .last_one {
+                max-width: 60%;
+                margin: 0 auto;
+            }
+
+           
 
 }
