@@ -98,11 +98,12 @@ flex-direction: column;
 
 
 
-.hot {
+.in_stock {
     background-image:url(https://i.pinimg.com/originals/58/a9/44/58a944b0faa4d14a4eae9dde7950a6ad.gif);
     background-size:100%;
     -webkit-background-clip: text;
     color:transparent;
+    font-size: 3rem;
    
 }
 
@@ -222,9 +223,6 @@ width: 80%;
 
             /* thumbnails */
 
-            .hot {
-                font-size: 5rem;
-            }
 
         .in_twos {
 
