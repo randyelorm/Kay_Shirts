@@ -56,18 +56,11 @@ body {
 }
 
 .dyed {
-    background-image:url(https://pa1.narvii.com/7282/10834b67de273b42fa25856510c51659d5419f6dr1-480-270_hq.gif);
-    background-size:100%;
-    -webkit-background-clip: text;
-    color:transparent;
-   
+  color:blueviolet;
 }
 
 .t-shirts {
-    background-image:url(https://64.media.tumblr.com/269a91e1a9ed40a5f6df4c35cf2de260/tumblr_pfg94z5tOh1uzwgsuo1_400.gifv);
-    background-size:100%;
-    -webkit-background-clip: text;
-    color:transparent;
+   color:plum;
 }
 
 
